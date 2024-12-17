@@ -14,6 +14,8 @@
 		CAF354A72CADD79900141FED /* rockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF354A62CADD79900141FED /* rockTests.swift */; };
 		CAF354B12CADD79900141FED /* rockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF354B02CADD79900141FED /* rockUITests.swift */; };
 		CAF354B32CADD79900141FED /* rockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF354B22CADD79900141FED /* rockUITestsLaunchTests.swift */; };
+		CAF354C02CADEB4C00141FED /* W.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAF354BF2CADEB4C00141FED /* W.mp3 */; };
+		CAF354C22CADEBBF00141FED /* L.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CAF354C12CADEBBF00141FED /* L.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		CAF354AC2CADD79900141FED /* rockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF354B02CADD79900141FED /* rockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockUITests.swift; sourceTree = "<group>"; };
 		CAF354B22CADD79900141FED /* rockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAF354BF2CADEB4C00141FED /* W.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = W.mp3; path = ../../../../Downloads/W.mp3; sourceTree = "<group>"; };
+		CAF354C12CADEBBF00141FED /* L.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = L.mp3; path = ../../../../Downloads/L.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		CAF354942CADD79700141FED /* rock */ = {
 			isa = PBXGroup;
 			children = (
+				CAF354C12CADEBBF00141FED /* L.mp3 */,
+				CAF354BF2CADEB4C00141FED /* W.mp3 */,
 				CAF354952CADD79700141FED /* rockApp.swift */,
 				CAF354972CADD79700141FED /* ContentView.swift */,
 				CAF354992CADD79900141FED /* Assets.xcassets */,
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF354C22CADEBBF00141FED /* L.mp3 in Resources */,
 				CAF3549D2CADD79900141FED /* Preview Assets.xcassets in Resources */,
+				CAF354C02CADEB4C00141FED /* W.mp3 in Resources */,
 				CAF3549A2CADD79900141FED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rock/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T8447A463;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"rock/Preview Content\"";
+				DEVELOPMENT_TEAM = 6T8447A463;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
